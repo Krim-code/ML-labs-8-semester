@@ -1,7 +1,7 @@
 import streamlit as st
 import tensorflow as tf
 import numpy as np
-
+import json
 
 #Tensorflow Model Prediction
 def model_prediction(test_image):
@@ -36,20 +36,26 @@ elif(app_mode=="About Project"):
     st.text("3. validation (10 images each)")
 
 #Prediction Page
-elif(app_mode=="Prediction"):
+if(app_mode=="Prediction"):
     st.header("Model Prediction")
     test_image = st.file_uploader("Choose an Image:")
     if(st.button("Show Image")):
-        st.image(test_image,width=4,use_column_width=True)
-    #Predict button
+        st.image(test_image, width=4, use_column_width=True)
+    # Predict button
     if(st.button("Predict")):
         st.snow()
         st.write("Our Prediction")
         result_index = model_prediction(test_image)
-        #Reading Labels
-        with open("labels.txt") as f:
-            content = f.readlines()
-        label = []
-        for i in content:
-            label.append(i[:-1])
-        st.success("Model is Predicting it's a {}".format(label[result_index]))
+        # Reading Labels from JSON
+        with open("labels.json") as f:
+            labels = json.load(f)
+        predicted_label = labels[result_index]["name"]
+        predicted_calories = labels[result_index]["calories"]
+        predicted_proteins = labels[result_index]["proteins"]
+        predicted_carbohydrates = labels[result_index]["carbohydrates"]
+        predicted_fats = labels[result_index]["fats"]
+        st.success(f"Model is Predicting it's a {predicted_label}")
+        st.write(f"Calories: {predicted_calories}")
+        st.write(f"Proteins: {predicted_proteins}g")
+        st.write(f"Carbohydrates: {predicted_carbohydrates}g")
+        st.write(f"Fats: {predicted_fats}g")

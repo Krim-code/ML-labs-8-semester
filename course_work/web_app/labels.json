@@ -1,0 +1,254 @@
+[
+    {
+        "name": "apple",
+        "calories": 52,
+        "proteins": 0.3,
+        "carbohydrates": 14,
+        "fats": 0.2
+    },
+    {
+        "name": "banana",
+        "calories": 89,
+        "proteins": 1.1,
+        "carbohydrates": 23,
+        "fats": 0.3
+    },
+    {
+        "name": "beetroot",
+        "calories": 43,
+        "proteins": 1.6,
+        "carbohydrates": 10,
+        "fats": 0.2
+    },
+    {
+        "name": "bell pepper",
+        "calories": 31,
+        "proteins": 1,
+        "carbohydrates": 6,
+        "fats": 0.3
+    },
+    {
+        "name": "cabbage",
+        "calories": 25,
+        "proteins": 1.3,
+        "carbohydrates": 6,
+        "fats": 0.1
+    },
+    {
+        "name": "capsicum",
+        "calories": 40,
+        "proteins": 2,
+        "carbohydrates": 9,
+        "fats": 0.4
+    },
+    {
+        "name": "carrot",
+        "calories": 41,
+        "proteins": 0.9,
+        "carbohydrates": 10,
+        "fats": 0.2
+    },
+    {
+        "name": "cauliflower",
+        "calories": 25,
+        "proteins": 2,
+        "carbohydrates": 5,
+        "fats": 0.3
+    },
+    {
+        "name": "chilli pepper",
+        "calories": 40,
+        "proteins": 2,
+        "carbohydrates": 9,
+        "fats": 0.4
+    },
+    {
+        "name": "corn",
+        "calories": 86,
+        "proteins": 3.2,
+        "carbohydrates": 19,
+        "fats": 1.2
+    },
+    {
+        "name": "cucumber",
+        "calories": 16,
+        "proteins": 0.7,
+        "carbohydrates": 4,
+        "fats": 0.1
+    },
+    {
+        "name": "eggplant",
+        "calories": 25,
+        "proteins": 1,
+        "carbohydrates": 6,
+        "fats": 0.2
+    },
+    {
+        "name": "garlic",
+        "calories": 149,
+        "proteins": 6.4,
+        "carbohydrates": 33,
+        "fats": 0.5
+    },
+    {
+        "name": "ginger",
+        "calories": 80,
+        "proteins": 1.8,
+        "carbohydrates": 18,
+        "fats": 0.8
+    },
+    {
+        "name": "grapes",
+        "calories": 69,
+        "proteins": 0.7,
+        "carbohydrates": 18,
+        "fats": 0.2
+    },
+    {
+        "name": "jalepeno",
+        "calories": 29,
+        "proteins": 0.9,
+        "carbohydrates": 6.5,
+        "fats": 0.4
+    },
+    {
+        "name": "kiwi",
+        "calories": 61,
+        "proteins": 1.1,
+        "carbohydrates": 15,
+        "fats": 0.5
+    },
+    {
+        "name": "lemon",
+        "calories": 29,
+        "proteins": 1.1,
+        "carbohydrates": 9,
+        "fats": 0.3
+    },
+    {
+        "name": "lettuce",
+        "calories": 15,
+        "proteins": 1.4,
+        "carbohydrates": 2.9,
+        "fats": 0.2
+    },
+    {
+        "name": "mango",
+        "calories": 60,
+        "proteins": 0.8,
+        "carbohydrates": 15,
+        "fats": 0.4
+    },
+    {
+        "name": "onion",
+        "calories": 40,
+        "proteins": 1.1,
+        "carbohydrates": 9,
+        "fats": 0.1
+    },
+    {
+        "name": "orange",
+        "calories": 47,
+        "proteins": 0.9,
+        "carbohydrates": 12,
+        "fats": 0.1
+    },
+    {
+        "name": "paprika",
+        "calories": 282,
+        "proteins": 14.1,
+        "carbohydrates": 54.7,
+        "fats": 12.9
+    },
+    {
+        "name": "pear",
+        "calories": 57,
+        "proteins": 0.4,
+        "carbohydrates": 15,
+        "fats": 0.1
+    },
+    {
+        "name": "peas",
+        "calories": 81,
+        "proteins": 5.4,
+        "carbohydrates": 14,
+        "fats": 0.4
+    },
+    {
+        "name": "pineapple",
+        "calories": 50,
+        "proteins": 0.5,
+        "carbohydrates": 13,
+        "fats": 0.1
+    },
+    {
+        "name": "pomegranate",
+        "calories": 83,
+        "proteins": 1.7,
+        "carbohydrates": 19,
+        "fats": 1.2
+    },
+    {
+        "name": "potato",
+        "calories": 77,
+        "proteins": 2,
+        "carbohydrates": 17,
+        "fats": 0.1
+    },
+    {
+        "name": "raddish",
+        "calories": 16,
+        "proteins": 0.7,
+        "carbohydrates": 3.4,
+        "fats": 0.1
+    },
+    {
+        "name": "soy beans",
+        "calories": 446,
+        "proteins": 36,
+        "carbohydrates": 30,
+        "fats": 20
+    },
+    {
+        "name": "spinach",
+        "calories": 23,
+        "proteins": 2.9,
+        "carbohydrates": 3.6,
+        "fats": 0.4
+    },
+    {
+        "name": "sweetcorn",
+        "calories": 86,
+        "proteins": 3.2,
+        "carbohydrates": 19,
+        "fats": 1.2
+    },
+    {
+        "name": "sweetpotato",
+        "calories": 86,
+        "proteins": 1.6,
+        "carbohydrates": 20,
+        "fats": 0.1
+    },
+    {
+        "name": "tomato",
+        "calories": 18,
+        "proteins": 0.9,
+        "carbohydrates": 3.9,
+        "fats": 0.2
+    },
+    {
+        "name": "turnip",
+        "calories": 28,
+        "proteins": 0.9,
+        "carbohydrates": 6.4,
+        "fats": 0.1
+    },
+    {
+        "name": "watermelon",
+        "calories": 30,
+        "proteins": 0.6,
+        "carbohydrates": 8,
+        "fats": 0.2
+    }
+]
